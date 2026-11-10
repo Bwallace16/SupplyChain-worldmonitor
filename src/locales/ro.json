@@ -383,7 +383,11 @@
     "panelCatCommodityEcon": "Economie și comerț",
     "panelCatHappyNews": "Știri bune",
     "panelCatHappyPlanet": "Planetă și donații",
-    "embed": "Încorporează"
+    "embed": "Încorporează",
+    "supplychain": "LANȚ DE APROVIZIONARE",
+    "panelCatFreightDesks": "Birouri de transport marfă",
+    "panelCatLogisticsNetwork": "Rețea logistică",
+    "panelCatTradeCost": "Reguli comerciale și costuri"
   },
   "panels": {
     "liveNews": "Știri Live",
@@ -1527,6 +1531,7 @@
       "briefTech": "SINTEZĂ TEHNOLOGIE",
       "briefCommodity": "SINTEZĂ MĂRFURI",
       "briefEnergy": "SINTEZĂ ENERGIE",
+      "briefSupplyChain": "BRIEFING LANȚ DE APROVIZIONARE",
       "briefWorld": "SINTEZĂ MONDIALĂ",
       "mlDetected": "Învățare automată DETECTATĂ",
       "geographicConvergence": "CONVERGENȚĂ GEOGRAFICĂ",
@@ -4890,6 +4895,11 @@
     },
     "happy": {
       "map": "Harta Știrilor Bune"
+    },
+    "supplychain": {
+      "map": "Hartă logistică globală",
+      "liveNews": "TV de afaceri live",
+      "insights": "Analize AI ale lanțului de aprovizionare"
     }
   },
   "pwaInstall": {

@@ -385,7 +385,11 @@
     "panelCatCommodityEcon": "Экономика и торговля",
     "panelCatHappyNews": "Хорошие новости",
     "panelCatHappyPlanet": "Планета и благотворительность",
-    "embed": "Встроить"
+    "embed": "Встроить",
+    "supplychain": "ЦЕПИ ПОСТАВОК",
+    "panelCatFreightDesks": "Грузовые направления",
+    "panelCatLogisticsNetwork": "Логистическая сеть",
+    "panelCatTradeCost": "Торговые правила и издержки"
   },
   "panels": {
     "liveNews": "Новости в реальном времени",
@@ -1530,6 +1534,7 @@
       "briefTech": "ТЕХНОЛОГИЧЕСКИЙ ОБЗОР",
       "briefCommodity": "ОБЗОР ТОВАРОВ",
       "briefEnergy": "ЭНЕРГЕТИЧЕСКИЙ ОБЗОР",
+      "briefSupplyChain": "СВОДКА ПО ЦЕПЯМ ПОСТАВОК",
       "briefWorld": "МИРОВОЙ ОБЗОР",
       "mlDetected": "Машинное обучение ОБНАРУЖЕНО",
       "geographicConvergence": "ГЕОГРАФИЧЕСКАЯ СХОДИМОСТЬ",
@@ -4912,6 +4917,11 @@
     },
     "happy": {
       "map": "Карта позитивных новостей"
+    },
+    "supplychain": {
+      "map": "Глобальная логистическая карта",
+      "liveNews": "Деловое ТВ в прямом эфире",
+      "insights": "ИИ-аналитика цепей поставок"
     }
   },
   "pwaInstall": {

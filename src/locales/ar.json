@@ -389,7 +389,11 @@
     "panelCatCommodityEcon": "الاقتصاد والتجارة",
     "panelCatHappyNews": "أخبار إيجابية",
     "panelCatHappyPlanet": "الكوكب والعطاء",
-    "embed": "تضمين"
+    "embed": "تضمين",
+    "supplychain": "سلاسل الإمداد",
+    "panelCatFreightDesks": "مكاتب الشحن",
+    "panelCatLogisticsNetwork": "شبكة اللوجستيات",
+    "panelCatTradeCost": "قواعد التجارة والتكلفة"
   },
   "panels": {
     "liveNews": "أخبار مباشرة",
@@ -1484,6 +1488,7 @@
       "briefTech": "ملخص التكنولوجيا",
       "briefCommodity": "ملخص السلع الأساسية",
       "briefEnergy": "ملخص الطاقة",
+      "briefSupplyChain": "موجز سلاسل الإمداد",
       "briefWorld": "ملخص العالم",
       "mlDetected": "كشف التعلم الآلي",
       "geographicConvergence": "التقارب الجغرافي",
@@ -4956,6 +4961,11 @@
     },
     "happy": {
       "map": "خريطة الأخبار الإيجابية"
+    },
+    "supplychain": {
+      "map": "خريطة اللوجستيات العالمية",
+      "liveNews": "تلفزيون الأعمال المباشر",
+      "insights": "رؤى سلاسل الإمداد بالذكاء الاصطناعي"
     }
   },
   "pwaInstall": {

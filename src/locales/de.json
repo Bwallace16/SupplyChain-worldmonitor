@@ -381,7 +381,11 @@
     "panelCatCommodityEcon": "Wirtschaft & Handel",
     "panelCatHappyNews": "Gute Nachrichten",
     "panelCatHappyPlanet": "Planet & Spenden",
-    "embed": "Einbetten"
+    "embed": "Einbetten",
+    "supplychain": "LIEFERKETTE",
+    "panelCatFreightDesks": "Fracht-Desks",
+    "panelCatLogisticsNetwork": "Logistiknetz",
+    "panelCatTradeCost": "Handelsregeln & Kosten"
   },
   "panels": {
     "liveNews": "Live-Nachrichten",
@@ -1904,6 +1908,7 @@
       "briefTech": "TECH-KURZINFO",
       "briefCommodity": "ROHSTOFF-KURZINFO",
       "briefEnergy": "ENERGIE-KURZINFO",
+      "briefSupplyChain": "LIEFERKETTEN-KURZINFO",
       "briefWorld": "WELT-KURZINFO",
       "mlDetected": "Machine Learning ERKANNT",
       "geographicConvergence": "GEOGRAFISCHE KONVERGENZ",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "Karte der guten Nachrichten"
+    },
+    "supplychain": {
+      "map": "Globale Logistikkarte",
+      "liveNews": "Live-Wirtschafts-TV",
+      "insights": "KI-Lieferketten-Einblicke"
     }
   },
   "pwaInstall": {

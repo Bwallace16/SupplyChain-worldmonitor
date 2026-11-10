@@ -379,7 +379,11 @@
     "panelCatCommodityEcon": "เศรษฐกิจและการค้า",
     "panelCatHappyNews": "ข่าวดี",
     "panelCatHappyPlanet": "โลกและการให้กำลังใจ",
-    "embed": "ฝังตัว"
+    "embed": "ฝังตัว",
+    "supplychain": "ห่วงโซ่อุปทาน",
+    "panelCatFreightDesks": "โต๊ะข่าวขนส่งสินค้า",
+    "panelCatLogisticsNetwork": "เครือข่ายโลจิสติกส์",
+    "panelCatTradeCost": "กฎการค้าและต้นทุน"
   },
   "panels": {
     "liveNews": "ข่าวสด",
@@ -1520,6 +1524,7 @@
       "briefTech": "บทสรุปเทคโนโลยี",
       "briefCommodity": "บทสรุปสินค้าโภคนำ",
       "briefEnergy": "บทสรุปพลังงาน",
+      "briefSupplyChain": "สรุปห่วงโซ่อุปทาน",
       "briefWorld": "บทสรุปโลก",
       "mlDetected": "การตรวจสอบด้วยการเรียนรู้ของเครื่อง",
       "geographicConvergence": "การบรรจบกันทางภูมิศาสตร์",
@@ -4846,6 +4851,11 @@
     },
     "happy": {
       "map": "แผนที่ข่าวดี"
+    },
+    "supplychain": {
+      "map": "แผนที่โลจิสติกส์โลก",
+      "liveNews": "ทีวีธุรกิจสด",
+      "insights": "ข้อมูลเชิงลึกห่วงโซ่อุปทานด้วย AI"
     }
   },
   "pwaInstall": {

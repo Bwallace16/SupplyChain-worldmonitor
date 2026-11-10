@@ -140,6 +140,10 @@ export const STATIC_ROUTE_MANIFEST = Object.freeze([
     ...DASHBOARD_MATERIAL_SOURCES,
     'src/config/variants/energy.ts',
   ]),
+  route('https://supplychain.worldmonitor.app/dashboard', 'dashboard-variant', [
+    ...DASHBOARD_MATERIAL_SOURCES,
+    'src/config/variants/supplychain.ts',
+  ]),
 ]);
 
 /**

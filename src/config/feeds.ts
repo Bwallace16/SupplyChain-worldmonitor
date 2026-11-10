@@ -111,6 +111,10 @@ const COMMODITY_FEEDS: Record<string, Feed[]> = browserFeeds('commodity');
 // ENERGY_PANELS changes.
 const ENERGY_FEEDS: Record<string, Feed[]> = browserFeeds('energy');
 
+// Supply chain variant feeds (supplychain.worldmonitor.app). Keys match the
+// news-category panel IDs in SUPPLYCHAIN_PANELS (src/config/panels.ts).
+const SUPPLYCHAIN_FEEDS: Record<string, Feed[]> = browserFeeds('supplychain');
+
 // Variant-aware exports
 export const FEEDS = SITE_VARIANT === 'tech'
   ? TECH_FEEDS
@@ -122,7 +126,9 @@ export const FEEDS = SITE_VARIANT === 'tech'
         ? COMMODITY_FEEDS
         : SITE_VARIANT === 'energy'
           ? ENERGY_FEEDS
-          : FULL_FEEDS;
+          : SITE_VARIANT === 'supplychain'
+            ? SUPPLYCHAIN_FEEDS
+            : FULL_FEEDS;
 
 // Canonical category→feeds map: the union of every variant's feed set.
 // `FEEDS` (above) is just the active variant's PRESET; users freely customize
@@ -141,6 +147,7 @@ export const CANONICAL_FEEDS: Record<string, Feed[]> = mergeCanonicalFeeds([
   FINANCE_FEEDS,
   COMMODITY_FEEDS,
   ENERGY_FEEDS,
+  SUPPLYCHAIN_FEEDS,
   HAPPY_FEEDS,
   ON_DEMAND_FEEDS,
 ]);

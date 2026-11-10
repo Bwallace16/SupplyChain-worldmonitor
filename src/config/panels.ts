@@ -1151,10 +1151,175 @@ const ENERGY_MOBILE_MAP_LAYERS: MapLayers = {
 };
 
 // ============================================
+// SUPPLY CHAIN variant (supplychain.worldmonitor.app)
+// Logistics and transportation: ocean, ports, chokepoints, air cargo,
+// trucking, rail and intermodal, warehousing, trade policy, disruption risk.
+// News category keys below match the `supplychain` edition in
+// shared/news-catalog.json. Keep both in sync.
+// ============================================
+const SUPPLYCHAIN_PANELS: Record<string, PanelConfig> = {
+  map: { name: 'Global Logistics Map', enabled: true, priority: 1 },
+  'supply-chain': { name: 'Chokepoints, Shipping & Routes', enabled: true, priority: 1 },
+  'chokepoint-strip': { name: 'Chokepoint Status', enabled: true, priority: 1 },
+  insights: { name: 'AI Supply Chain Insights', enabled: true, priority: 1 },
+  'live-news': { name: 'Live Business TV', enabled: true, priority: 1 },
+  // Freight desks (news categories from the supplychain edition)
+  'ocean-shipping': { name: 'Ocean Freight & Containers', enabled: true, priority: 1 },
+  'ports-terminals': { name: 'Ports & Terminals', enabled: true, priority: 1 },
+  'air-cargo': { name: 'Air Cargo', enabled: true, priority: 1 },
+  'trucking-parcel': { name: 'Trucking & Parcel', enabled: true, priority: 1 },
+  'rail-intermodal': { name: 'Rail & Intermodal', enabled: true, priority: 1 },
+  'warehousing-3pl': { name: 'Warehousing & 3PL', enabled: true, priority: 2 },
+  'trade-customs': { name: 'Tariffs, Customs & Trade Rules', enabled: true, priority: 1 },
+  'logistics-tech': { name: 'Logistics Tech & TMS', enabled: true, priority: 2 },
+  // Corridors and trade flow context
+  'china-corridors': { name: 'China Logistics Corridors', enabled: true, priority: 1 },
+  'china-activity-nowcast': { name: 'China Activity Nowcast', enabled: true, priority: 2 },
+  'hormuz-tracker': { name: 'Hormuz Trade Tracker', enabled: true, priority: 2 },
+  'airline-intel': { name: 'Airline & Air Cargo Intelligence', enabled: true, priority: 2 },
+  'trade-policy': { name: 'Trade Policy', enabled: true, priority: 1, premium: 'locked' as const },
+  'global-procurement': { name: 'Global Procurement', enabled: true, priority: 1, premium: 'locked' as const },
+  'sanctions-pressure': { name: 'Sanctions Pressure', enabled: true, priority: 2 },
+  // Cost side: fuel, commodities, macro
+  'fuel-prices': { name: 'Retail Fuel Prices', enabled: true, priority: 1 },
+  'fuel-shortages': { name: 'Fuel Shortage Registry', enabled: true, priority: 2 },
+  commodities: { name: 'Freight-Linked Commodities', enabled: true, priority: 2 },
+  economic: { name: 'Macro Stress', enabled: true, priority: 2 },
+  'consumer-prices': { name: 'Consumer Prices', enabled: true, priority: 2 },
+  'economic-calendar': { name: 'Economic Calendar', enabled: true, priority: 2 },
+  // Disruption drivers
+  climate: { name: 'Weather & Climate Disruptions', enabled: true, priority: 2 },
+  // Tracking
+  monitors: { name: 'My Monitors', enabled: true, priority: 3 },
+  'world-clock': { name: 'World Clock', enabled: true, priority: 3 },
+  'latest-brief': { name: 'Latest Brief', enabled: true, priority: 1, premium: 'locked' as const },
+};
+
+const SUPPLYCHAIN_MAP_LAYERS: MapLayers = {
+  gpsJamming: false,
+  satellites: false,
+  conflicts: false,
+  bases: false,
+  cables: true,  // Undersea cables behind trade data and EDI
+  pipelines: false,
+  hotspots: false,
+  ais: true,  // Live vessel positions on strategic waterways
+  nuclear: false,
+  irradiators: false,
+  sanctions: true,  // Sanctions that reroute cargo
+  weather: true,  // Severe weather that closes ports and lanes
+  canadaRoads: true,  // Cross-border trucking road events
+  canadaAlerts: false,
+  economic: true,  // Economic centers and trade hubs
+  waterways: true,  // Suez, Panama, Hormuz, Malacca, Bab el-Mandeb
+  outages: true,  // Power and grid outages at hubs
+  cyberThreats: false,
+  datacenters: false,
+  protests: true,  // Labor strikes and port protests
+  flights: true,  // Air cargo and airport activity
+  military: false,
+  natural: true,  // Earthquakes near ports and corridors
+  spaceports: false,
+  minerals: false,
+  fires: true,  // Wildfires near highways and rail
+  ucdpEvents: false,
+  displacement: false,
+  climate: true,  // Climate anomalies driving disruption
+  startupHubs: false,
+  cloudRegions: false,
+  accelerators: false,
+  techHQs: false,
+  techEvents: false,
+  stockExchanges: false,
+  financialCenters: false,
+  centralBanks: false,
+  commodityHubs: true,  // Freight-linked commodity exchanges
+  gulfInvestments: false,
+  positiveEvents: false,
+  kindness: false,
+  happiness: false,
+  speciesRecovery: false,
+  renewableInstallations: false,
+  tradeRoutes: true,  // Major ocean trade lanes
+  iranAttacks: false,
+  ciiChoropleth: false,
+  resilienceScore: false,
+  dayNight: false,
+  miningSites: false,
+  processingPlants: false,
+  commodityPorts: true,  // Container, bulk and energy ports
+  webcams: false,
+  diseaseOutbreaks: false,
+  storageFacilities: false,
+  fuelShortages: true,  // Diesel and jet fuel shortages
+  liveTankers: true,  // Tanker positions inside chokepoints
+};
+
+const SUPPLYCHAIN_MOBILE_MAP_LAYERS: MapLayers = {
+  gpsJamming: false,
+  satellites: false,
+  conflicts: false,
+  bases: false,
+  cables: false,
+  pipelines: false,
+  hotspots: false,
+  ais: true,
+  nuclear: false,
+  irradiators: false,
+  sanctions: false,
+  weather: true,
+  canadaRoads: false,
+  canadaAlerts: false,
+  economic: false,
+  waterways: true,
+  outages: false,
+  cyberThreats: false,
+  datacenters: false,
+  protests: false,
+  flights: false,
+  military: false,
+  natural: true,
+  spaceports: false,
+  minerals: false,
+  fires: false,
+  ucdpEvents: false,
+  displacement: false,
+  climate: false,
+  startupHubs: false,
+  cloudRegions: false,
+  accelerators: false,
+  techHQs: false,
+  techEvents: false,
+  stockExchanges: false,
+  financialCenters: false,
+  centralBanks: false,
+  commodityHubs: false,
+  gulfInvestments: false,
+  positiveEvents: false,
+  kindness: false,
+  happiness: false,
+  speciesRecovery: false,
+  renewableInstallations: false,
+  tradeRoutes: false,
+  iranAttacks: false,
+  ciiChoropleth: false,
+  resilienceScore: false,
+  dayNight: false,
+  miningSites: false,
+  processingPlants: false,
+  commodityPorts: true,
+  webcams: false,
+  diseaseOutbreaks: false,
+  storageFacilities: false,
+  fuelShortages: false,
+  liveTankers: false,
+};
+
+// ============================================
 // UNIFIED PANEL REGISTRY
 // ============================================
 
-type PanelVariant = 'full' | 'tech' | 'finance' | 'commodity' | 'energy' | 'happy';
+type PanelVariant = 'full' | 'tech' | 'finance' | 'commodity' | 'energy' | 'supplychain' | 'happy';
 
 const VARIANT_PANEL_CONFIGS: Record<PanelVariant, Record<string, PanelConfig>> = {
   full: FULL_PANELS,
@@ -1162,6 +1327,7 @@ const VARIANT_PANEL_CONFIGS: Record<PanelVariant, Record<string, PanelConfig>> =
   finance: FINANCE_PANELS,
   commodity: COMMODITY_PANELS,
   energy: ENERGY_PANELS,
+  supplychain: SUPPLYCHAIN_PANELS,
   happy: HAPPY_PANELS,
 };
 
@@ -1177,14 +1343,25 @@ export function isPanelNativeToVariant(panelId: string, variant: string): boolea
   return Boolean(configs && Object.prototype.hasOwnProperty.call(configs, panelId));
 }
 
-/** All panels from all variants — canonical cross-variant registry. */
-export const ALL_PANELS: Record<string, PanelConfig> = {
+const LEGACY_VARIANT_PANELS: Record<string, PanelConfig> = {
   ...HAPPY_PANELS,
   ...COMMODITY_PANELS,
   ...ENERGY_PANELS,
   ...TECH_PANELS,
   ...FINANCE_PANELS,
   ...FULL_PANELS,
+};
+
+/**
+ * All panels from all variants — canonical cross-variant registry.
+ * Supply chain panels are appended only where the key is new, so shared panels
+ * keep the configs and key order every other variant already depends on.
+ */
+export const ALL_PANELS: Record<string, PanelConfig> = {
+  ...LEGACY_VARIANT_PANELS,
+  ...Object.fromEntries(
+    Object.entries(SUPPLYCHAIN_PANELS).filter(([key]) => !Object.prototype.hasOwnProperty.call(LEGACY_VARIANT_PANELS, key)),
+  ),
 };
 
 /** Per-variant canonical panel order (keys = which panels are enabled by default). */
@@ -1194,6 +1371,7 @@ export const VARIANT_DEFAULTS: Record<string, string[]> = {
   finance:   Object.keys(VARIANT_PANEL_CONFIGS.finance),
   commodity: Object.keys(VARIANT_PANEL_CONFIGS.commodity),
   energy:    Object.keys(VARIANT_PANEL_CONFIGS.energy),
+  supplychain: Object.keys(VARIANT_PANEL_CONFIGS.supplychain),
   happy:     Object.keys(VARIANT_PANEL_CONFIGS.happy),
 };
 
@@ -1221,6 +1399,11 @@ export const VARIANT_PANEL_OVERRIDES: Partial<Record<string, Partial<Record<stri
     map:         { name: 'Energy Atlas Map' },
     'live-news': { name: 'Energy Headlines' },
     insights:    { name: 'AI Energy Insights' },
+  },
+  supplychain: {
+    map:         { name: 'Global Logistics Map' },
+    'live-news': { name: 'Live Business TV' },
+    insights:    { name: 'AI Supply Chain Insights' },
   },
   happy: {
     map:         { name: 'Good News Map' },
@@ -1470,7 +1653,9 @@ export const DEFAULT_MAP_LAYERS = SITE_VARIANT === 'happy'
         ? COMMODITY_MAP_LAYERS
         : SITE_VARIANT === 'energy'
           ? ENERGY_MAP_LAYERS
-          : FULL_MAP_LAYERS;
+          : SITE_VARIANT === 'supplychain'
+            ? SUPPLYCHAIN_MAP_LAYERS
+            : FULL_MAP_LAYERS;
 
 export const MOBILE_DEFAULT_MAP_LAYERS = SITE_VARIANT === 'happy'
   ? HAPPY_MOBILE_MAP_LAYERS
@@ -1482,7 +1667,9 @@ export const MOBILE_DEFAULT_MAP_LAYERS = SITE_VARIANT === 'happy'
         ? COMMODITY_MOBILE_MAP_LAYERS
         : SITE_VARIANT === 'energy'
           ? ENERGY_MOBILE_MAP_LAYERS
-          : FULL_MOBILE_MAP_LAYERS;
+          : SITE_VARIANT === 'supplychain'
+            ? SUPPLYCHAIN_MOBILE_MAP_LAYERS
+            : FULL_MOBILE_MAP_LAYERS;
 
 /** Maps map-layer toggle keys to their data-freshness source IDs (single source of truth). */
 export const LAYER_TO_SOURCE: Partial<Record<keyof MapLayers, DataSourceId[]>> = {
@@ -1620,6 +1807,23 @@ export const PANEL_CATEGORY_MAP: Record<string, { labelKey: string; panelKeys: s
     labelKey: 'header.panelCatCommodityEcon',
     panelKeys: ['trade-policy', 'sanctions-pressure', 'economic', 'gulf-economies', 'gcc-investments', 'consumer-prices', 'finance', 'polymarket', 'airline-intel', 'world-clock', 'monitors'],
     variants: ['commodity'],
+  },
+
+  // Supply chain variant
+  scFreightDesks: {
+    labelKey: 'header.panelCatFreightDesks',
+    panelKeys: ['ocean-shipping', 'ports-terminals', 'air-cargo', 'trucking-parcel', 'rail-intermodal', 'warehousing-3pl', 'logistics-tech'],
+    variants: ['supplychain'],
+  },
+  scNetwork: {
+    labelKey: 'header.panelCatLogisticsNetwork',
+    panelKeys: ['supply-chain', 'chokepoint-strip', 'china-corridors', 'china-activity-nowcast', 'hormuz-tracker', 'airline-intel', 'climate'],
+    variants: ['supplychain'],
+  },
+  scTradeCost: {
+    labelKey: 'header.panelCatTradeCost',
+    panelKeys: ['trade-customs', 'trade-policy', 'global-procurement', 'sanctions-pressure', 'fuel-prices', 'fuel-shortages', 'commodities', 'economic', 'consumer-prices', 'economic-calendar', 'monitors', 'world-clock'],
+    variants: ['supplychain'],
   },
 
   // Happy variant

@@ -35,10 +35,10 @@ const getAuthoritativeCountryScore = getCachedCountryScoreValue;
 
 // The server snapshot is seeded from the full-variant digest only, so it is
 // always the world brief. Only the client pipeline runs a variant prompt.
-type BriefScope = 'world' | 'tech' | 'commodity' | 'energy';
+type BriefScope = 'world' | 'tech' | 'commodity' | 'energy' | 'supplychain';
 
 function parseBriefScope(value: unknown): BriefScope {
-  return value === 'tech' || value === 'commodity' || value === 'energy' ? value : 'world';
+  return value === 'tech' || value === 'commodity' || value === 'energy' || value === 'supplychain' ? value : 'world';
 }
 
 export class InsightsPanel extends Panel {
@@ -552,6 +552,7 @@ export class InsightsPanel extends Panel {
         // Tech variant: no geopolitical context, just tech news summarization
         // Commodity variant: commodities-specific framing for gold/metals/energy markets
         // Energy variant: energy-specific framing — pipelines, chokepoints, shortages, disruptions
+        // Supply chain variant: logistics framing for shippers, carriers, brokers and 3PLs
         const theaterContext = SITE_VARIANT === 'full' ? this.getTheaterPostureContext() : '';
         let geoContext = SITE_VARIANT === 'full'
           ? (focalSummary.aiContext || signalSummary.aiContext) + theaterContext
@@ -559,7 +560,9 @@ export class InsightsPanel extends Panel {
             ? 'You are generating a commodities market brief. Focus on gold and precious metals price movements, mining supply risks, energy market dynamics, and macro factors driving commodity prices. Highlight supply disruptions, geopolitical risks to mining regions, central bank gold activity, and USD/inflation trends.'
             : SITE_VARIANT === 'energy'
               ? 'You are generating a global energy-intelligence brief. Focus on physical supply: oil & gas pipeline status and disruptions (Druzhba, Nord Stream, TurkStream, Power of Siberia, CPC), chokepoint flow (Hormuz, Malacca, Suez, Bab el-Mandeb, Turkish Straits, Danish Straits, Panama), storage levels (EU gas, US SPR, IEA stocks, days-of-cover), fuel shortages (jet / petrol / diesel / heating oil), refinery outages, LNG flows, OPEC+ production signals, and sanctions impacts. Prefer physical constraints and evidence-grounded status changes over price commentary. Attribute every flow figure to its source (AIS calibration, operator disclosure, regulator data) — never ship a bare conclusion.'
-              : '';
+              : SITE_VARIANT === 'supplychain'
+                ? 'You are generating a global logistics and supply chain brief for shippers, carriers, freight brokers, 3PLs and procurement teams. Lead with what changes how freight moves this week: chokepoint and canal status (Suez, Panama, Hormuz, Bab el-Mandeb, Malacca), port congestion and labor actions, ocean, air and truckload capacity and rate direction, rail and intermodal service, tariff, customs and sanctions changes, fuel cost moves, and weather or outage events near major hubs. For each item say which lanes, modes or regions are exposed and whether the effect is delay, cost, or capacity. Prefer operational evidence over market commentary and attribute every figure to its source; never ship a bare conclusion.'
+                : '';
         const insightsFw = getActiveFrameworkForPanel('insights');
         if (insightsFw) {
           geoContext = `${geoContext}\n\n---\nAnalytical Framework:\n${insightsFw.systemPromptAppend}`;
@@ -813,6 +816,7 @@ export class InsightsPanel extends Panel {
       scope === 'tech'      ? `🚀 ${t('components.insights.briefTech')}`
     : scope === 'commodity' ? `⛏️ ${t('components.insights.briefCommodity')}`
     : scope === 'energy'    ? `⚡ ${t('components.insights.briefEnergy')}`
+    : scope === 'supplychain' ? `🚢 ${t('components.insights.briefSupplyChain')}`
     :                         `🌍 ${t('components.insights.briefWorld')}`;
     return `
       <div class="insights-brief">

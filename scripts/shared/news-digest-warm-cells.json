@@ -126,5 +126,9 @@
   {
     "edition": "energy",
     "lang": "en"
+  },
+  {
+    "edition": "supplychain",
+    "lang": "en"
   }
 ]

@@ -379,7 +379,11 @@
     "panelCatCommodityEcon": "經濟與貿易",
     "panelCatHappyNews": "好訊息",
     "panelCatHappyPlanet": "地球與慈善",
-    "embed": "嵌入"
+    "embed": "嵌入",
+    "supplychain": "供應鏈",
+    "panelCatFreightDesks": "貨運專欄",
+    "panelCatLogisticsNetwork": "物流網路",
+    "panelCatTradeCost": "貿易規則與成本"
   },
   "panels": {
     "liveNews": "即時新聞",
@@ -1520,6 +1524,7 @@
       "briefTech": "技術簡報",
       "briefCommodity": "商品簡報",
       "briefEnergy": "能源簡報",
+      "briefSupplyChain": "供應鏈簡報",
       "briefWorld": "世界簡報",
       "mlDetected": "機器學習 已檢測",
       "geographicConvergence": "地理匯聚",
@@ -4846,6 +4851,11 @@
     },
     "happy": {
       "map": "好訊息地圖"
+    },
+    "supplychain": {
+      "map": "全球物流地圖",
+      "liveNews": "商業電視直播",
+      "insights": "AI 供應鏈洞察"
     }
   },
   "pwaInstall": {

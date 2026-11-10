@@ -58,7 +58,7 @@ describe('rssEventId', () => {
     // a story is a separate LLM miss and a separate rss_alert publish. The feeds
     // differ in tracking parameters, scheme, www, fragment and trailing slash.
     const variants = JSON.parse(readFileSync(new URL('../scripts/shared/news-digest-editions.json', import.meta.url), 'utf8'));
-    assert.deepEqual(variants, ['full', 'tech', 'finance', 'commodity', 'happy', 'energy']);
+    assert.deepEqual(variants, ['full', 'tech', 'finance', 'commodity', 'happy', 'energy', 'supplychain']);
     const copies = {
       full: ['https://www.reuters.com/world/middle-east/tankers-hit-mines-hormuz-2026-10-17/', 'Two tankers hit mines in Strait of Hormuz, Iran\'s Guards say - Reuters'],
       tech: ['https://reuters.com/world/middle-east/tankers-hit-mines-hormuz-2026-10-17?utm_source=rss&utm_medium=tech', 'Two tankers hit mines in Strait of Hormuz, Iran’s Guards say'],
@@ -66,6 +66,7 @@ describe('rssEventId', () => {
       happy: ['https://www.reuters.com/world/middle-east/tankers-hit-mines-hormuz-2026-10-17/?taid=abc', 'IRGC: two tankers struck mines in the Strait of Hormuz'],
       commodity: ['https://www.reuters.com/world/middle-east/tankers-hit-mines-hormuz-2026-10-17', 'Tanker mine strikes in Hormuz | Reuters'],
       energy: ['https://reuters.com/world/middle-east/tankers-hit-mines-hormuz-2026-10-17/?utm_source=energy', 'Two tankers hit mines in Strait of Hormuz, Iran\'s Guards say'],
+      supplychain: ['https://www.reuters.com/world/middle-east/tankers-hit-mines-hormuz-2026-10-17/?utm_campaign=supplychain', 'Two tankers hit mines in Strait of Hormuz, Iran\'s Guards say - Reuters'],
     };
     assert.deepEqual(Object.keys(copies).sort(), [...variants].sort());
     const ids = new Set(variants.map((variant) => rssEventId(...copies[variant])));

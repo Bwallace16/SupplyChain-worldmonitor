@@ -383,7 +383,11 @@
     "panelCatCommodityEcon": "Economia e Commercio",
     "panelCatHappyNews": "Buone Notizie",
     "panelCatHappyPlanet": "Pianeta e Beneficenza",
-    "embed": "Incorpora"
+    "embed": "Incorpora",
+    "supplychain": "CATENA DI FORNITURA",
+    "panelCatFreightDesks": "Desk merci",
+    "panelCatLogisticsNetwork": "Rete logistica",
+    "panelCatTradeCost": "Regole commerciali e costi"
   },
   "panels": {
     "liveNews": "Notizie in diretta",
@@ -1908,6 +1912,7 @@
       "briefTech": "RIEPILOGO TECH",
       "briefCommodity": "RIEPILOGO MATERIE PRIME",
       "briefEnergy": "RIEPILOGO ENERGIA",
+      "briefSupplyChain": "BRIEF CATENA DI FORNITURA",
       "briefWorld": "RIEPILOGO MONDO",
       "mlDetected": "RILEVATO da apprendimento automatico",
       "geographicConvergence": "CONVERGENZA GEOGRAFICA",
@@ -4890,6 +4895,11 @@
     },
     "happy": {
       "map": "Mappa Buone Notizie"
+    },
+    "supplychain": {
+      "map": "Mappa logistica globale",
+      "liveNews": "TV economica in diretta",
+      "insights": "Approfondimenti IA sulla catena di fornitura"
     }
   },
   "pwaInstall": {

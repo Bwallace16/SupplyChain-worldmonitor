@@ -1370,6 +1370,7 @@
       "briefTech": "TEKNIK-SAMMANFATTNING",
       "briefCommodity": "RÅVARU-SAMMANFATTNING",
       "briefEnergy": "ENERGI-SAMMANFATTNING",
+      "briefSupplyChain": "LEVERANSKEDJEBRIEF",
       "briefWorld": "VÄRLDS-SAMMANFATTNING",
       "mlDetected": "Maskininlärning DETEKTERAD",
       "geographicConvergence": "GEOGRAFISK KONVERGENS",
@@ -3986,7 +3987,11 @@
     "panelCatCommodityEcon": "Ekonomi & Handel",
     "panelCatHappyNews": "Goda Nyheter",
     "panelCatHappyPlanet": "Planet & Välgörenhet",
-    "embed": "Bädda in"
+    "embed": "Bädda in",
+    "supplychain": "LEVERANSKEDJA",
+    "panelCatFreightDesks": "Fraktdeskar",
+    "panelCatLogisticsNetwork": "Logistiknätverk",
+    "panelCatTradeCost": "Handelsregler & kostnader"
   },
   "countryBrief": {
     "identifying": "Identifierar land...",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "Karta över goda nyheter"
+    },
+    "supplychain": {
+      "map": "Global logistikkarta",
+      "liveNews": "Live affärs-tv",
+      "insights": "AI-insikter om leveranskedjan"
     }
   },
   "pwaInstall": {

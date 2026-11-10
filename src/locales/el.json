@@ -381,7 +381,11 @@
     "panelCatCommodityEcon": "Οικονομία & Εμπόριο",
     "panelCatHappyNews": "Καλές Ειδήσεις",
     "panelCatHappyPlanet": "Πλανήτης & Δωρεές",
-    "embed": "Ενσωμάτωση"
+    "embed": "Ενσωμάτωση",
+    "supplychain": "ΕΦΟΔΙΑΣΤΙΚΗ ΑΛΥΣΙΔΑ",
+    "panelCatFreightDesks": "Τμήματα μεταφορών",
+    "panelCatLogisticsNetwork": "Δίκτυο logistics",
+    "panelCatTradeCost": "Εμπορικοί κανόνες & κόστος"
   },
   "panels": {
     "liveNews": "Ζωντανές Ειδήσεις",
@@ -1524,6 +1528,7 @@
       "briefTech": "ΣΥΝΟΨΗ ΤΕΧΝΟΛΟΓΙΑΣ",
       "briefCommodity": "ΣΥΝΟΨΗ ΕΜΠΟΡΕΥΜΑΤΩΝ",
       "briefEnergy": "ΣΥΝΟΨΗ ΕΝΕΡΓΕΙΑΣ",
+      "briefSupplyChain": "ΕΝΗΜΕΡΩΣΗ ΕΦΟΔΙΑΣΤΙΚΗΣ ΑΛΥΣΙΔΑΣ",
       "briefWorld": "ΠΑΓΚΟΣΜΙΑ ΣΥΝΟΨΗ",
       "mlDetected": "Η μηχανική μάθηση ΑΝΙΧΝΕΥΣΕ",
       "geographicConvergence": "ΓΕΩΓΡΑΦΙΚΗ ΣΥΓΚΛΙΣΗ",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "Χάρτης Θετικών Ειδήσεων"
+    },
+    "supplychain": {
+      "map": "Παγκόσμιος χάρτης logistics",
+      "liveNews": "Επιχειρηματική TV ζωντανά",
+      "insights": "Πληροφορίες AI για την εφοδιαστική αλυσίδα"
     }
   },
   "pwaInstall": {

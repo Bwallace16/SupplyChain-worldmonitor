@@ -277,7 +277,7 @@ const CYBER_LAYER_ENABLED = import.meta.env.VITE_ENABLE_CYBER_LAYER === 'true';
 // CII/risk-scoring path. Set VITE_ENABLE_IRAN_ATTACKS=true to restore. Mirrors CYBER_LAYER_ENABLED.
 const IRAN_ATTACKS_ENABLED = import.meta.env.VITE_ENABLE_IRAN_ATTACKS === 'true';
 // Variants whose preset layout carries the trade and supply-chain panels.
-const TRADE_SURFACE_VARIANTS = ['full', 'finance', 'commodity', 'energy'] as const;
+const TRADE_SURFACE_VARIANTS = ['full', 'finance', 'commodity', 'energy', 'supplychain'] as const;
 
 export interface DataLoaderCallbacks {
   renderCriticalBanner: (postures: TheaterPostureSummary[]) => void;
@@ -3148,7 +3148,9 @@ export class DataLoaderManager implements AppModule {
             ? ['commodity-news', 'gold-silver', 'mining-news', 'energy', 'critical-minerals']
             : SITE_VARIANT === 'energy'
               ? ['live-news', 'energy', 'supply-chain']
-              : undefined,
+              : SITE_VARIANT === 'supplychain'
+                ? ['ocean-shipping', 'ports-terminals', 'air-cargo', 'trucking-parcel', 'trade-customs']
+                : undefined,
         }),
         60_000,
         'daily-brief-total-build',

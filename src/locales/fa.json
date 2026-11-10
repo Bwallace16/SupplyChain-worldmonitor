@@ -450,7 +450,11 @@
     "panelCatMining": "معدن و زنجیره تأمین",
     "panelCatCommodityEcon": "اقتصاد و تجارت",
     "panelCatHappyNews": "اخبار خوب",
-    "panelCatHappyPlanet": "سیاره و نیکوکاری"
+    "panelCatHappyPlanet": "سیاره و نیکوکاری",
+    "supplychain": "زنجیره تأمین",
+    "panelCatFreightDesks": "میزهای حمل بار",
+    "panelCatLogisticsNetwork": "شبکه لجستیک",
+    "panelCatTradeCost": "قوانین تجاری و هزینه"
   },
   "panels": {
     "liveNews": "اخبار زنده",
@@ -1674,6 +1678,7 @@
       "briefTech": "گزارش فناوری",
       "briefCommodity": "گزارش کالا",
       "briefEnergy": "گزارش انرژی",
+      "briefSupplyChain": "خلاصه زنجیره تأمین",
       "briefWorld": "گزارش جهان",
       "mlDetected": "یادگیری ماشین تشخیص داده شد",
       "geographicConvergence": "همگرایی جغرافیایی",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "نقشه اخبار خوب"
+    },
+    "supplychain": {
+      "map": "نقشه جهانی لجستیک",
+      "liveNews": "تلویزیون زنده کسب‌وکار",
+      "insights": "بینش‌های هوش مصنوعی زنجیره تأمین"
     }
   },
   "pwaInstall": {
