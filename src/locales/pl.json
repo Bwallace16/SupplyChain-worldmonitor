@@ -385,7 +385,11 @@
     "panelCatCommodityEcon": "Gospodarka i Handel",
     "panelCatHappyNews": "Dobre Wiadomości",
     "panelCatHappyPlanet": "Planeta i Filantropia",
-    "embed": "Osadź"
+    "embed": "Osadź",
+    "supplychain": "ŁAŃCUCH DOSTAW",
+    "panelCatFreightDesks": "Działy frachtu",
+    "panelCatLogisticsNetwork": "Sieć logistyczna",
+    "panelCatTradeCost": "Zasady handlu i koszty"
   },
   "panels": {
     "liveNews": "Wiadomości na żywo",
@@ -1818,6 +1822,7 @@
       "briefTech": "PRZEGLĄD TECHNOLOGICZNY",
       "briefCommodity": "PRZEGLĄD SUROWCÓW",
       "briefEnergy": "PRZEGLĄD ENERGETYCZNY",
+      "briefSupplyChain": "PRZEGLĄD ŁAŃCUCHA DOSTAW",
       "briefWorld": "PRZEGLĄD ŚWIATOWY",
       "mlDetected": "Uczenie maszynowe WYKRYTE",
       "geographicConvergence": "ZBIEŻNOŚĆ GEOGRAFICZNA",
@@ -4912,6 +4917,11 @@
     },
     "happy": {
       "map": "Mapa Dobrych Wiadomości"
+    },
+    "supplychain": {
+      "map": "Globalna mapa logistyczna",
+      "liveNews": "Biznesowa TV na żywo",
+      "insights": "Analizy AI łańcucha dostaw"
     }
   },
   "pwaInstall": {

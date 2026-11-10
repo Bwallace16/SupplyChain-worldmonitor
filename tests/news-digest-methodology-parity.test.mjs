@@ -447,7 +447,7 @@ describe('news digest methodology parity', () => {
     const rows = extractFeedInventoryRows();
     assert.equal(
       rows.length,
-      73,
+      81,
       'server news feed inventory row count changed; update shared/news-catalog.json, docs/data-sources.mdx, and this assertion together',
     );
     for (const row of rows) {
@@ -525,7 +525,7 @@ describe('news digest methodology parity', () => {
 
   it('documents the accepted feed digest variants from VALID_VARIANTS', () => {
     const variants = [...VALID_VARIANTS];
-    assert.deepEqual(variants, ['full', 'tech', 'finance', 'commodity', 'happy', 'energy']);
+    assert.deepEqual(variants, ['full', 'tech', 'finance', 'commodity', 'happy', 'energy', 'supplychain']);
     for (const variant of variants) assertDocIncludes(`\`${variant}\``, `variant ${variant}`);
     for (const variant of variants) {
       assert.ok(

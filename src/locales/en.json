@@ -415,6 +415,7 @@
     "finance": "FINANCE",
     "commodity": "COMMODITY",
     "energy": "ENERGY",
+    "supplychain": "SUPPLY CHAIN",
     "panelDisplayCaption": "Choose which panels to show on the dashboard",
     "tabSettings": "Settings",
     "tabPanels": "Panels",
@@ -471,6 +472,9 @@
     "panelCatCommodityPrices": "Prices & Markets",
     "panelCatMining": "Mining & Supply Chain",
     "panelCatCommodityEcon": "Economy & Trade",
+    "panelCatFreightDesks": "Freight Desks",
+    "panelCatLogisticsNetwork": "Logistics Network",
+    "panelCatTradeCost": "Trade Rules & Cost",
     "panelCatHappyNews": "Good News",
     "panelCatHappyPlanet": "Planet & Giving"
   },
@@ -604,6 +608,11 @@
       "map": "Energy Atlas Map",
       "liveNews": "Energy Headlines",
       "insights": "AI Energy Insights"
+    },
+    "supplychain": {
+      "map": "Global Logistics Map",
+      "liveNews": "Live Business TV",
+      "insights": "AI Supply Chain Insights"
     },
     "happy": {
       "map": "Good News Map"
@@ -1725,6 +1734,7 @@
       "briefTech": "TECH BRIEF",
       "briefCommodity": "COMMODITY BRIEF",
       "briefEnergy": "ENERGY BRIEF",
+      "briefSupplyChain": "SUPPLY CHAIN BRIEF",
       "briefWorld": "WORLD BRIEF",
       "briefStoryDetails": "Story details ({{count}})",
       "mlDetected": "Machine learning DETECTED",

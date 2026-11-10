@@ -450,7 +450,11 @@
     "panelCatMining": "Mnyororo wa Uchimbaji na Ugavi",
     "panelCatCommodityEcon": "Uchumi na Biashara",
     "panelCatHappyNews": "Habari Njema",
-    "panelCatHappyPlanet": "Sayari & Kutoa"
+    "panelCatHappyPlanet": "Sayari & Kutoa",
+    "supplychain": "MNYORORO WA UGAVI",
+    "panelCatFreightDesks": "Madawati ya mizigo",
+    "panelCatLogisticsNetwork": "Mtandao wa usafirishaji",
+    "panelCatTradeCost": "Kanuni za biashara na gharama"
   },
   "panels": {
     "liveNews": "Habari za Moja kwa Moja",
@@ -1674,6 +1678,7 @@
       "briefTech": "MUHTASARI WA TEKNHAM",
       "briefCommodity": "UFUPI WA BIDHAA",
       "briefEnergy": "UFUPI WA NISHATI",
+      "briefSupplyChain": "MUHTASARI WA MNYORORO WA UGAVI",
       "briefWorld": "UFUPI WA DUNIA",
       "mlDetected": "Machine learning ILIYOGUNDULIKA",
       "geographicConvergence": "MUUNGANO WA KIJIOGRAFI",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "Ramani ya Habari Nzuri"
+    },
+    "supplychain": {
+      "map": "Ramani ya usafirishaji duniani",
+      "liveNews": "TV ya biashara mubashara",
+      "insights": "Maarifa ya AI kuhusu mnyororo wa ugavi"
     }
   },
   "pwaInstall": {

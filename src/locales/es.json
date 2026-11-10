@@ -383,7 +383,11 @@
     "panelCatCommodityEcon": "Economía y Comercio",
     "panelCatHappyNews": "Buenas Noticias",
     "panelCatHappyPlanet": "Planeta y Donaciones",
-    "embed": "Insertar"
+    "embed": "Insertar",
+    "supplychain": "CADENA DE SUMINISTRO",
+    "panelCatFreightDesks": "Mesas de carga",
+    "panelCatLogisticsNetwork": "Red logística",
+    "panelCatTradeCost": "Reglas comerciales y costes"
   },
   "panels": {
     "liveNews": "Noticias en vivo",
@@ -1908,6 +1912,7 @@
       "briefTech": "RESUMEN TECNOLÓGICO",
       "briefCommodity": "RESUMEN DE MATERIAS PRIMAS",
       "briefEnergy": "RESUMEN ENERGÉTICO",
+      "briefSupplyChain": "RESUMEN DE CADENA DE SUMINISTRO",
       "briefWorld": "RESUMEN MUNDIAL",
       "mlDetected": "Aprendizaje automático DETECTADO",
       "geographicConvergence": "CONVERGENCIA GEOGRÁFICA",
@@ -4890,6 +4895,11 @@
     },
     "happy": {
       "map": "Mapa de Buenas Noticias"
+    },
+    "supplychain": {
+      "map": "Mapa logístico global",
+      "liveNews": "TV de negocios en directo",
+      "insights": "Análisis de cadena de suministro con IA"
     }
   },
   "pwaInstall": {

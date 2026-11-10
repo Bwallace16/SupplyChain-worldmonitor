@@ -253,6 +253,7 @@ export const VARIANT_SWITCHER_DASHBOARD_URLS = {
   finance: 'https://finance.worldmonitor.app/dashboard',
   commodity: 'https://commodity.worldmonitor.app/dashboard',
   energy: 'https://energy.worldmonitor.app/dashboard',
+  supplychain: 'https://supplychain.worldmonitor.app/dashboard',
   happy: 'https://happy.worldmonitor.app/dashboard',
 } as const;
 
@@ -1197,6 +1198,15 @@ export class PanelLayoutManager implements AppModule {
               <span class="variant-label">${t('header.energy')}</span>
             </a>
             <span class="variant-divider"></span>
+            <a href="${vHref('supplychain')}"
+               class="variant-option ${SITE_VARIANT === 'supplychain' ? 'active' : ''}"
+               data-variant="supplychain"
+               ${vTarget('supplychain')}
+               title="${t('header.supplychain')}${SITE_VARIANT === 'supplychain' ? ` ${t('common.currentVariant')}` : ''}">
+              <span class="variant-icon">🚢</span>
+              <span class="variant-label">${t('header.supplychain')}</span>
+            </a>
+            <span class="variant-divider"></span>
             <a href="${vHref('happy')}"
                class="variant-option ${SITE_VARIANT === 'happy' ? 'active' : ''}"
                data-variant="happy"
@@ -1270,6 +1280,7 @@ export class PanelLayoutManager implements AppModule {
           { key: 'finance', icon: '📈', label: t('header.finance') },
           { key: 'commodity', icon: '⛏️', label: t('header.commodity') },
           { key: 'energy', icon: '⚡', label: t('header.energy') },
+          { key: 'supplychain', icon: '🚢', label: t('header.supplychain') },
           { key: 'happy', icon: '☀️', label: 'Good News' },
         ];
         return variants.map(v =>

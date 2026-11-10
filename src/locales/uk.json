@@ -454,7 +454,11 @@
     "panelCatMining": "Видобування і ланцюги поставок",
     "panelCatCommodityEcon": "Економіка та торгівля",
     "panelCatHappyNews": "Хорошi новини",
-    "panelCatHappyPlanet": "Планета та благодійність"
+    "panelCatHappyPlanet": "Планета та благодійність",
+    "supplychain": "ЛАНЦЮГИ ПОСТАЧАННЯ",
+    "panelCatFreightDesks": "Вантажні напрями",
+    "panelCatLogisticsNetwork": "Логістична мережа",
+    "panelCatTradeCost": "Торговельні правила та витрати"
   },
   "panels": {
     "liveNews": "Прямі новини",
@@ -1682,6 +1686,7 @@
       "briefTech": "ТЕХНОЛОГІЇ — БРИФІНГ",
       "briefCommodity": "ТОВАРИ — БРИФІНГ",
       "briefEnergy": "ЕНЕРГЕТИКА — БРИФІНГ",
+      "briefSupplyChain": "ЗВЕДЕННЯ ЩОДО ЛАНЦЮГІВ ПОСТАЧАННЯ",
       "briefWorld": "СВІТ — БРИФІНГ",
       "mlDetected": "Machine learning ВИЯВЛЕНО",
       "geographicConvergence": "ГЕОГРАФІЧНА КОНВЕРГЕНЦІЯ",
@@ -4912,6 +4917,11 @@
     },
     "happy": {
       "map": "Карта добрих новин"
+    },
+    "supplychain": {
+      "map": "Глобальна логістична карта",
+      "liveNews": "Ділове ТБ наживо",
+      "insights": "ШІ-аналітика ланцюгів постачання"
     }
   },
   "pwaInstall": {

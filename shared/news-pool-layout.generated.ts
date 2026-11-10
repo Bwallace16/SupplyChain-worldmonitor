@@ -88,6 +88,16 @@ export const NEWS_POOL_LAYOUT: NewsPoolLayout = {
       "live-news",
       "energy",
       "supply-chain"
+    ],
+    "supplychain": [
+      "ocean-shipping",
+      "ports-terminals",
+      "air-cargo",
+      "trucking-parcel",
+      "rail-intermodal",
+      "warehousing-3pl",
+      "trade-customs",
+      "logistics-tech"
     ]
   },
   "languages": [
@@ -347,6 +357,13 @@ export const NEWS_POOL_LAYOUT: NewsPoolLayout = {
     },
     {
       "edition": "energy",
+      "lang": "en",
+      "contentLanguages": [
+        "en"
+      ]
+    },
+    {
+      "edition": "supplychain",
       "lang": "en",
       "contentLanguages": [
         "en"

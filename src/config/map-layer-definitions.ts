@@ -10,7 +10,7 @@ import { isDesktopRuntime } from '@/services/runtime';
  * imports this type so the picker, dispatcher, and shell stay in lockstep.
  */
 export type RendererKind = 'svg' | 'deck' | 'globe';
-export type MapVariant = 'full' | 'tech' | 'finance' | 'happy' | 'commodity' | 'energy';
+export type MapVariant = 'full' | 'tech' | 'finance' | 'happy' | 'commodity' | 'energy' | 'supplychain';
 
 const _desktop = isDesktopRuntime();
 
@@ -207,6 +207,15 @@ const VARIANT_LAYER_ORDER: Record<MapVariant, Array<keyof MapLayers>> = {
     // Energy-adjacent context
     'sanctions', 'fires', 'climate', 'weather', 'canadaRoads', 'outages', 'natural', 'canadaAlerts',
     'resilienceScore', 'dayNight',
+  ],
+  supplychain: [
+    // Logistics network, mirror of SUPPLYCHAIN_MAP_LAYERS in panels.ts
+    'waterways', 'ais', 'liveTankers', 'tradeRoutes', 'commodityPorts', 'flights', 'cables',
+    // Disruption drivers
+    'weather', 'natural', 'fires', 'climate', 'outages', 'protests', 'sanctions', 'fuelShortages',
+    'canadaRoads', 'canadaAlerts',
+    // Context
+    'commodityHubs', 'economic', 'resilienceScore', 'dayNight',
   ],
 };
 
@@ -501,6 +510,10 @@ export const LAYER_SYNONYMS: Record<string, Array<keyof MapLayers>> = {
   bank: ['centralBanks', 'financialCenters'],
   stock: ['stockExchanges'],
   trade: ['tradeRoutes', 'waterways'],
+  freight: ['tradeRoutes', 'waterways', 'ais', 'commodityPorts'],
+  shipping: ['ais', 'waterways', 'tradeRoutes'],
+  logistics: ['tradeRoutes', 'commodityPorts', 'waterways'],
+  cargo: ['flights', 'ais', 'commodityPorts'],
   cloud: ['cloudRegions', 'datacenters'],
   ai: ['datacenters'],
   startup: ['startupHubs', 'accelerators'],

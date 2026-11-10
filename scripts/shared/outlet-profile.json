@@ -37,6 +37,13 @@
     "language": "en",
     "ownershipClass": "private"
   },
+  "3PL & Forwarders": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "444.hu": {
     "country": "HU",
     "audience": "domestic",
@@ -228,11 +235,30 @@
     "ownershipClass": "unreviewed",
     "note": "Google News topic query aggregating many publishers; no single owner."
   },
+  "Air Cargo News": {
+    "country": "GB",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
+  "Air Cargo Week": {
+    "country": "GB",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
   "Air Force of the Armed Forces of Ukraine": {
     "country": "UA",
     "audience": "domestic",
     "language": "uk",
     "ownershipClass": "state"
+  },
+  "Air Freight Market": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "Aïr Info": {
     "country": "NE",
@@ -967,6 +993,13 @@
     "ownershipClass": "unreviewed",
     "note": "Anonymous conflict aggregator; ownership not public."
   },
+  "Class I Railroads": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Cloud Outages": {
     "country": "INTL",
     "audience": "international",
@@ -1068,6 +1101,13 @@
     "language": "en",
     "ownershipClass": "nonprofit"
   },
+  "Container Lines": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Contxto (LATAM)": {
     "country": "MX",
     "audience": "international",
@@ -1119,6 +1159,13 @@
     "ownershipClass": "unreviewed",
     "note": "Google News topic search aggregating many publishers; no single owner."
   },
+  "Cross-Border Freight": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "CrowdStrike": {
     "country": "US",
     "audience": "international",
@@ -1169,6 +1216,13 @@
     "audience": "domestic",
     "language": "en",
     "ownershipClass": "private"
+  },
+  "Customs & Compliance": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "CyberDetective": {
     "country": "INTL",
@@ -1650,6 +1704,13 @@
     "ownershipClass": "unreviewed",
     "note": "Google News topic query aggregating many publishers; no single owner."
   },
+  "Eurasia Rail Freight": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Eurasianet": {
     "country": "US",
     "audience": "international",
@@ -1665,6 +1726,13 @@
     "note": "Lyon-based, majority-owned by Alpac Capital since 2022, no longer a public broadcaster consortium."
   },
   "EV Battery Supply": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
+  "Express Integrators": {
     "country": "INTL",
     "audience": "international",
     "language": "en",
@@ -1878,6 +1946,19 @@
     "ownershipClass": "unreviewed",
     "note": "Google News topic query aggregating many publishers; no single owner."
   },
+  "Freight Tech Funding": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
+  "FreightWaves": {
+    "country": "US",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
   "FT Energy": {
     "country": "GB",
     "audience": "international",
@@ -1993,6 +2074,13 @@
     "audience": "domestic",
     "language": "en",
     "ownershipClass": "private"
+  },
+  "Global Port Hubs": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "Globe and Mail": {
     "country": "CA",
@@ -2443,6 +2531,13 @@
     "language": "ru",
     "ownershipClass": "private"
   },
+  "Intermodal & Drayage": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Investing.com News": {
     "country": "IL",
     "audience": "international",
@@ -2840,6 +2935,12 @@
     "note": "Google News keyword search aggregating many publishers; no single owner."
   },
   "Lobsters": {
+    "country": "US",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
+  "Logistics Viewpoints": {
     "country": "US",
     "audience": "international",
     "language": "en",
@@ -3303,6 +3404,13 @@
     "language": "en",
     "ownershipClass": "private"
   },
+  "North American Ports": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Northern Miner": {
     "country": "CA",
     "audience": "international",
@@ -3384,6 +3492,13 @@
     "audience": "international",
     "language": "en",
     "ownershipClass": "nonprofit"
+  },
+  "Ocean Freight Rates": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "OECD Digital": {
     "country": "INTL",
@@ -3550,6 +3665,13 @@
     "language": "pl",
     "ownershipClass": "state"
   },
+  "Parcel & Last Mile": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Paul Graham Essays": {
     "country": "INTL",
     "audience": "international",
@@ -3644,6 +3766,26 @@
     "language": "en",
     "ownershipClass": "unreviewed",
     "note": "Google News topic query aggregating many publishers; no single owner."
+  },
+  "Port Congestion": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
+  "Port Labor & Strikes": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
+  "Port Technology": {
+    "country": "GB",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
   },
   "Portfolio.hu": {
     "country": "HU",
@@ -3747,6 +3889,12 @@
     "ownershipClass": "public-service",
     "note": "State-funded broadcaster with statutory editorial independence."
   },
+  "Railway Age": {
+    "country": "US",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
   "RAND": {
     "country": "US",
     "audience": "international",
@@ -3777,6 +3925,13 @@
     "audience": "international",
     "language": "en",
     "ownershipClass": "nonprofit"
+  },
+  "Red Sea & Canal Routing": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "Refinery & Disruptions": {
     "country": "INTL",
@@ -4170,6 +4325,13 @@
     "ownershipClass": "unreviewed",
     "note": "Google News topic query aggregating many publishers; no single owner."
   },
+  "Shipping Sanctions": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Show HN": {
     "country": "US",
     "audience": "international",
@@ -4233,6 +4395,12 @@
     "language": "en",
     "ownershipClass": "unreviewed",
     "note": "Google News topic search aggregating many publishers; no single owner."
+  },
+  "Splash247": {
+    "country": "SG",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
   },
   "Sputnik": {
     "country": "RU",
@@ -4318,6 +4486,19 @@
     "language": "en",
     "ownershipClass": "private"
   },
+  "Supply Chain Dive": {
+    "country": "US",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
+  "Supply Chain Software": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Suspilne": {
     "country": "UA",
     "audience": "domestic",
@@ -4389,6 +4570,13 @@
     "note": "Topic search across many publishers (Taiwanese tech); no single owner."
   },
   "Tanker & Shipping": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
+  "Tariff Watch": {
     "country": "INTL",
     "audience": "international",
     "language": "en",
@@ -4633,6 +4821,12 @@
     "ownershipClass": "unreviewed",
     "note": "English-language Iran and Persian Gulf monitor; ownership not public."
   },
+  "The Loadstar": {
+    "country": "GB",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
+  },
   "The Narwhal": {
     "country": "CA",
     "audience": "domestic",
@@ -4786,6 +4980,13 @@
     "ownershipClass": "unreviewed",
     "note": "Google News keyword search aggregating many publishers; no single owner."
   },
+  "Trade Agreements": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
+  },
   "Trade Routes": {
     "country": "INTL",
     "audience": "international",
@@ -4799,6 +5000,12 @@
     "language": "en",
     "ownershipClass": "unreviewed",
     "note": "Google News topic search aggregating many publishers; no single owner."
+  },
+  "Transport Topics": {
+    "country": "US",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "private"
   },
   "Treasury": {
     "country": "US",
@@ -4818,6 +5025,13 @@
     "audience": "international",
     "language": "en",
     "ownershipClass": "state"
+  },
+  "Truckload & LTL Market": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "Trump - Truth Social": {
     "country": "US",
@@ -5070,6 +5284,13 @@
     "audience": "international",
     "language": "en",
     "ownershipClass": "private"
+  },
+  "Warehousing & Fulfillment": {
+    "country": "INTL",
+    "audience": "international",
+    "language": "en",
+    "ownershipClass": "unreviewed",
+    "note": "Google News topic query aggregating many publishers; no single owner."
   },
   "Warfare Analysis": {
     "country": "INTL",

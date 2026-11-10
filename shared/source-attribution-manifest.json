@@ -324,6 +324,34 @@
       ]
     },
     {
+      "host": "aircargonews.net",
+      "provider": "aircargonews.net",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit aircargonews.net and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
+      "host": "aircargoweek.com",
+      "provider": "aircargoweek.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit aircargoweek.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
       "host": "airinfoagadez.com",
       "provider": "Aïr Info",
       "kind": "feed",
@@ -4868,6 +4896,20 @@
       ]
     },
     {
+      "host": "freightwaves.com",
+      "provider": "freightwaves.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit freightwaves.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
       "host": "ft.com",
       "provider": "ft.com",
       "kind": "feed",
@@ -6444,6 +6486,20 @@
       ]
     },
     {
+      "host": "logisticsviewpoints.com",
+      "provider": "logisticsviewpoints.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit logisticsviewpoints.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
       "host": "lorientlejour.com",
       "provider": "L'Orient Today",
       "kind": "feed",
@@ -7993,6 +8049,20 @@
       ]
     },
     {
+      "host": "porttechnology.org",
+      "provider": "porttechnology.org",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit porttechnology.org and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
       "host": "portwatch.imf.org",
       "provider": "portwatch.imf.org",
       "kind": "structured",
@@ -8365,6 +8435,20 @@
       "references": [
         {
           "path": "server/worldmonitor/infrastructure/v1/list-service-statuses.ts"
+        }
+      ]
+    },
+    {
+      "host": "railwayage.com",
+      "provider": "railwayage.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit railwayage.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
         }
       ]
     },
@@ -9355,6 +9439,20 @@
       ]
     },
     {
+      "host": "splash247.com",
+      "provider": "splash247.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit splash247.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
       "host": "ssl.bing.com",
       "provider": "ssl.bing.com",
       "kind": "structured",
@@ -9729,6 +9827,34 @@
       "references": [
         {
           "path": "src/config/live-video-sources.ts"
+        }
+      ]
+    },
+    {
+      "host": "supplychain.worldmonitor.app",
+      "provider": "supplychain.worldmonitor.app",
+      "kind": "structured",
+      "observed": true,
+      "license": "Excluded: first-party, control-plane, UI, or rendering transport",
+      "attribution": "Excluded from the external-provider count: not an ingested upstream dataset.",
+      "status": "excluded",
+      "references": [
+        {
+          "path": "src/config/variant-meta.ts"
+        }
+      ]
+    },
+    {
+      "host": "supplychaindive.com",
+      "provider": "supplychaindive.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit supplychaindive.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
         }
       ]
     },
@@ -10208,6 +10334,20 @@
       ]
     },
     {
+      "host": "theloadstar.com",
+      "provider": "theloadstar.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit theloadstar.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
+        }
+      ]
+    },
+    {
       "host": "thenarwhal.ca",
       "provider": "thenarwhal.ca",
       "kind": "feed",
@@ -10476,6 +10616,20 @@
       "references": [
         {
           "path": "scripts/viarail-live.mjs"
+        }
+      ]
+    },
+    {
+      "host": "ttnews.com",
+      "provider": "ttnews.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit ttnews.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "shared/news-catalog.json"
         }
       ]
     },

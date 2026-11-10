@@ -450,7 +450,11 @@
     "panelCatCommodityEcon": "अर्थव्यवस्था और व्यापार",
     "panelCatHappyNews": "अच्छी खबरें",
     "panelCatHappyPlanet": "प्लैनेट और दान",
-    "embed": "एम्बेड"
+    "embed": "एम्बेड",
+    "supplychain": "आपूर्ति श्रृंखला",
+    "panelCatFreightDesks": "माल ढुलाई डेस्क",
+    "panelCatLogisticsNetwork": "लॉजिस्टिक्स नेटवर्क",
+    "panelCatTradeCost": "व्यापार नियम और लागत"
   },
   "panels": {
     "liveNews": "ताजा खबरें",
@@ -1674,6 +1678,7 @@
       "briefTech": "टेक संक्षेप",
       "briefCommodity": "कमोडिटी संक्षेप",
       "briefEnergy": "ऊर्जा संक्षेप",
+      "briefSupplyChain": "आपूर्ति श्रृंखला सारांश",
       "briefWorld": "विश्व संक्षेप",
       "mlDetected": "मशीन लर्निंग पहचाना गया",
       "geographicConvergence": "भौगोलिक संगम",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "सकारात्मक समाचार मानचित्र"
+    },
+    "supplychain": {
+      "map": "वैश्विक लॉजिस्टिक्स मानचित्र",
+      "liveNews": "लाइव बिज़नेस टीवी",
+      "insights": "AI आपूर्ति श्रृंखला अंतर्दृष्टि"
     }
   },
   "pwaInstall": {

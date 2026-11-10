@@ -381,7 +381,11 @@
     "panelCatCommodityEcon": "Економија & Трговија",
     "panelCatHappyNews": "Добри Вести",
     "panelCatHappyPlanet": "Планета & Давање",
-    "embed": "Вграждане"
+    "embed": "Вграждане",
+    "supplychain": "ВЕРИГИ ЗА ДОСТАВКИ",
+    "panelCatFreightDesks": "Товарни направления",
+    "panelCatLogisticsNetwork": "Логистична мрежа",
+    "panelCatTradeCost": "Търговски правила и разходи"
   },
   "panels": {
     "liveNews": "Живи новини",
@@ -1524,6 +1528,7 @@
       "briefTech": "ТЕХНОЛОГИЧНО РЕЗЮМЕ",
       "briefCommodity": "РЕЗЮМЕ НА СУРОВИНИ",
       "briefEnergy": "ЕНЕРГИЙНО РЕЗЮМЕ",
+      "briefSupplyChain": "БРИФИНГ ЗА ВЕРИГИТЕ ЗА ДОСТАВКИ",
       "briefWorld": "СВЕТОВНО РЕЗЮМЕ",
       "mlDetected": "Machine learning ОТКРИТО",
       "geographicConvergence": "ГЕОГРАФИЧЕСКА КОНВЕРГЕНЦИЯ",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "Карта на добрите новини"
+    },
+    "supplychain": {
+      "map": "Глобална логистична карта",
+      "liveNews": "Бизнес телевизия на живо",
+      "insights": "AI анализи на веригите за доставки"
     }
   },
   "pwaInstall": {

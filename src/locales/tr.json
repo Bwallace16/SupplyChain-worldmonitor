@@ -381,7 +381,11 @@
     "panelCatCommodityEcon": "Ekonomi & Ticaret",
     "panelCatHappyNews": "İyi Haberler",
     "panelCatHappyPlanet": "Gezegen & Hayırseverlik",
-    "embed": "Göm"
+    "embed": "Göm",
+    "supplychain": "TEDARİK ZİNCİRİ",
+    "panelCatFreightDesks": "Yük masaları",
+    "panelCatLogisticsNetwork": "Lojistik ağı",
+    "panelCatTradeCost": "Ticaret kuralları ve maliyet"
   },
   "panels": {
     "liveNews": "Canli Haberler",
@@ -1524,6 +1528,7 @@
       "briefTech": "TEKNOLOJİ ÖZETİ",
       "briefCommodity": "EMTIA ÖZETİ",
       "briefEnergy": "ENERJİ ÖZETİ",
+      "briefSupplyChain": "TEDARİK ZİNCİRİ ÖZETİ",
       "briefWorld": "DÜNYA ÖZETİ",
       "mlDetected": "Makine öğrenmesi TESPİT EDİLDİ",
       "geographicConvergence": "COĞRAFİ YAKINSAKlık",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "İyi Haberler Haritası"
+    },
+    "supplychain": {
+      "map": "Küresel lojistik haritası",
+      "liveNews": "Canlı iş dünyası TV",
+      "insights": "Yapay zekâ tedarik zinciri içgörüleri"
     }
   },
   "pwaInstall": {

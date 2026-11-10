@@ -379,7 +379,11 @@
     "panelCatCommodityEcon": "经济与贸易",
     "panelCatHappyNews": "好消息",
     "panelCatHappyPlanet": "地球与慈善",
-    "embed": "嵌入"
+    "embed": "嵌入",
+    "supplychain": "供应链",
+    "panelCatFreightDesks": "货运专栏",
+    "panelCatLogisticsNetwork": "物流网络",
+    "panelCatTradeCost": "贸易规则与成本"
   },
   "panels": {
     "liveNews": "实时新闻",
@@ -1520,6 +1524,7 @@
       "briefTech": "技术简报",
       "briefCommodity": "商品简报",
       "briefEnergy": "能源简报",
+      "briefSupplyChain": "供应链简报",
       "briefWorld": "世界简报",
       "mlDetected": "机器学习 已检测",
       "geographicConvergence": "地理汇聚",
@@ -4846,6 +4851,11 @@
     },
     "happy": {
       "map": "好消息地图"
+    },
+    "supplychain": {
+      "map": "全球物流地图",
+      "liveNews": "商业电视直播",
+      "insights": "AI 供应链洞察"
     }
   },
   "pwaInstall": {

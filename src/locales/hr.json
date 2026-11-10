@@ -453,7 +453,11 @@
     "panelCatCommodityEcon": "Ekonomija i trgovina",
     "panelCatHappyNews": "Dobre vijesti",
     "panelCatHappyPlanet": "Planet i pomoć",
-    "embed": "Ugradi"
+    "embed": "Ugradi",
+    "supplychain": "OPSKRBNI LANAC",
+    "panelCatFreightDesks": "Teretni odjeli",
+    "panelCatLogisticsNetwork": "Logistička mreža",
+    "panelCatTradeCost": "Trgovinska pravila i troškovi"
   },
   "panels": {
     "liveNews": "Vijesti uživo",
@@ -1682,6 +1686,7 @@
       "briefTech": "TEHNIČKI SAŽETAK",
       "briefCommodity": "SAŽETAK ROBA",
       "briefEnergy": "ENERGETSKI SAŽETAK",
+      "briefSupplyChain": "SAŽETAK OPSKRBNOG LANCA",
       "briefWorld": "SVJETSKI SAŽETAK",
       "mlDetected": "Strojno učenje DETEKTIRANO",
       "geographicConvergence": "GEOGRAFSKA KONVERGENCIJA",
@@ -4901,6 +4906,11 @@
     },
     "happy": {
       "map": "Mapa dobrih vijesti"
+    },
+    "supplychain": {
+      "map": "Globalna logistička karta",
+      "liveNews": "Poslovna TV uživo",
+      "insights": "AI uvidi u opskrbni lanac"
     }
   },
   "pwaInstall": {

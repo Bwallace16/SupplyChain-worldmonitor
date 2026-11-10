@@ -693,6 +693,16 @@ export class MapComponent {
       'natural', 'weather',                           // operational risk
       'outages', 'sanctions',                         // disruption context
     ];
+    // Supply chain variant: SVG/mobile fallback. Mirrors
+    // VARIANT_LAYER_ORDER.supplychain in src/config/map-layer-definitions.ts,
+    // ordered by logistics priority so MAX_SVG_LAYERS trims context layers
+    // (cables, economic, commodityHubs) before lanes, vessels and disruptions.
+    const supplychainLayers: (keyof MapLayers)[] = [
+      'waterways', 'ais', 'flights',                  // network: lanes, vessels, air cargo
+      'outages', 'weather', 'natural', 'protests',    // disruption drivers
+      'sanctions', 'fires',                           // routing and corridor risk
+      'cables', 'economic', 'commodityHubs',          // context
+    ];
     // Filter sunset and renderer-incompatible layers so the SVG/mobile picker
     // cannot expose a toggle whose layer has no SVG paint path.
     const layers = (SITE_VARIANT === 'tech' ? techLayers
@@ -700,6 +710,7 @@ export class MapComponent {
                  : SITE_VARIANT === 'happy' ? happyLayers
                  : SITE_VARIANT === 'energy' ? energyLayers
                  : SITE_VARIANT === 'commodity' ? commodityLayers
+                 : SITE_VARIANT === 'supplychain' ? supplychainLayers
                  : fullLayers).filter((key) => !isSunsetLayer(key) && isLayerExecutable(key, 'svg'));
     const MAX_SVG_LAYERS = 9;
     const enforceLayerLimit = () => {

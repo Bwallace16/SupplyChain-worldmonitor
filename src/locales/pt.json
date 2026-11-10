@@ -1372,6 +1372,7 @@
       "briefTech": "RESUMO TECH",
       "briefCommodity": "RESUMO COMMODITIES",
       "briefEnergy": "RESUMO ENERGIA",
+      "briefSupplyChain": "RESUMO DA CADEIA DE SUPRIMENTOS",
       "briefWorld": "RESUMO MUNDIAL",
       "mlDetected": "Machine learning DETECTADO",
       "geographicConvergence": "CONVERGÊNCIA GEOGRÁFICA",
@@ -4006,7 +4007,11 @@
     "panelCatCommodityEcon": "Economia & Comércio",
     "panelCatHappyNews": "Boas Notícias",
     "panelCatHappyPlanet": "Planeta & Doações",
-    "embed": "Incorporar"
+    "embed": "Incorporar",
+    "supplychain": "CADEIA DE SUPRIMENTOS",
+    "panelCatFreightDesks": "Mesas de frete",
+    "panelCatLogisticsNetwork": "Rede logística",
+    "panelCatTradeCost": "Regras comerciais e custos"
   },
   "countryBrief": {
     "identifying": "Identificando país...",
@@ -4890,6 +4895,11 @@
     },
     "happy": {
       "map": "Mapa de Boas Notícias"
+    },
+    "supplychain": {
+      "map": "Mapa logístico global",
+      "liveNews": "TV de negócios ao vivo",
+      "insights": "Insights de IA sobre a cadeia de suprimentos"
     }
   },
   "pwaInstall": {

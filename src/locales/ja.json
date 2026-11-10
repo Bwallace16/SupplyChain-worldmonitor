@@ -379,7 +379,11 @@
     "panelCatCommodityEcon": "経済・貿易",
     "panelCatHappyNews": "ニュース",
     "panelCatHappyPlanet": "地球・社会貢献",
-    "embed": "埋め込む"
+    "embed": "埋め込む",
+    "supplychain": "サプライチェーン",
+    "panelCatFreightDesks": "貨物デスク",
+    "panelCatLogisticsNetwork": "物流ネットワーク",
+    "panelCatTradeCost": "貿易ルールとコスト"
   },
   "panels": {
     "liveNews": "ライブニュース",
@@ -1520,6 +1524,7 @@
       "briefTech": "テック速報",
       "briefCommodity": "商品速報",
       "briefEnergy": "エネルギー速報",
+      "briefSupplyChain": "サプライチェーン速報",
       "briefWorld": "ワールド速報",
       "mlDetected": "機械学習 検出",
       "geographicConvergence": "地理的収束",
@@ -4846,6 +4851,11 @@
     },
     "happy": {
       "map": "グッドニュースマップ"
+    },
+    "supplychain": {
+      "map": "グローバル物流マップ",
+      "liveNews": "ビジネスTVライブ",
+      "insights": "AIサプライチェーン分析"
     }
   },
   "pwaInstall": {

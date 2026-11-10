@@ -27,6 +27,7 @@
     "finance": "FINANCE",
     "commodity": "COMMODITY",
     "energy": "ENERGY",
+    "supplychain": "SUPPLY CHAIN",
     "panelDisplayCaption": "Choose which panels to show on the dashboard",
     "tabSettings": "Settings",
     "tabPanels": "Panels",
@@ -83,6 +84,9 @@
     "panelCatCommodityPrices": "Prices & Markets",
     "panelCatMining": "Mining & Supply Chain",
     "panelCatCommodityEcon": "Economy & Trade",
+    "panelCatFreightDesks": "Freight Desks",
+    "panelCatLogisticsNetwork": "Logistics Network",
+    "panelCatTradeCost": "Trade Rules & Cost",
     "panelCatHappyNews": "Good News",
     "panelCatHappyPlanet": "Planet & Giving"
   },

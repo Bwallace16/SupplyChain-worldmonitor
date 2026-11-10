@@ -385,7 +385,11 @@
     "panelCatCommodityEcon": "Ekonomika a obchod",
     "panelCatHappyNews": "Dobré zprávy",
     "panelCatHappyPlanet": "Planeta a dárcovství",
-    "embed": "Vložit"
+    "embed": "Vložit",
+    "supplychain": "DODAVATELSKÉ ŘETĚZCE",
+    "panelCatFreightDesks": "Nákladní doprava",
+    "panelCatLogisticsNetwork": "Logistická síť",
+    "panelCatTradeCost": "Obchodní pravidla a náklady"
   },
   "panels": {
     "liveNews": "Živé zprávy",
@@ -1518,6 +1522,7 @@
       "briefTech": "TECH SHRNUTÍ",
       "briefCommodity": "KOMODITNÍ SHRNUTÍ",
       "briefEnergy": "ENERGETICKÉ SHRNUTÍ",
+      "briefSupplyChain": "PŘEHLED DODAVATELSKÝCH ŘETĚZCŮ",
       "briefWorld": "SVĚTOVÉ SHRNUTÍ",
       "mlDetected": "Strojové učení DETEKOVÁNO",
       "geographicConvergence": "GEOGRAFICKÁ KONVERGENCE",
@@ -4912,6 +4917,11 @@
     },
     "happy": {
       "map": "Mapa dobrých zpráv"
+    },
+    "supplychain": {
+      "map": "Globální logistická mapa",
+      "liveNews": "Živá obchodní TV",
+      "insights": "AI přehledy dodavatelských řetězců"
     }
   },
   "pwaInstall": {

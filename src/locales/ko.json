@@ -379,7 +379,11 @@
     "panelCatCommodityEcon": "경제 & 무역",
     "panelCatHappyNews": "좋은 소식",
     "panelCatHappyPlanet": "지구 & 기부",
-    "embed": "삽입"
+    "embed": "삽입",
+    "supplychain": "공급망",
+    "panelCatFreightDesks": "화물 데스크",
+    "panelCatLogisticsNetwork": "물류 네트워크",
+    "panelCatTradeCost": "무역 규칙 및 비용"
   },
   "panels": {
     "liveNews": "실시간 뉴스",
@@ -1520,6 +1524,7 @@
       "briefTech": "기술 브리프",
       "briefCommodity": "상품 브리프",
       "briefEnergy": "에너지 브리프",
+      "briefSupplyChain": "공급망 브리핑",
       "briefWorld": "세계 브리프",
       "mlDetected": "머신러닝 탐지됨",
       "geographicConvergence": "지역 수렴",
@@ -4846,6 +4851,11 @@
     },
     "happy": {
       "map": "긍정 뉴스 지도"
+    },
+    "supplychain": {
+      "map": "글로벌 물류 지도",
+      "liveNews": "실시간 비즈니스 TV",
+      "insights": "AI 공급망 인사이트"
     }
   },
   "pwaInstall": {

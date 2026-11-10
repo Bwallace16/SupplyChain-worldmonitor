@@ -3223,6 +3223,161 @@ export const BROWSER_NEWS_CATALOG: BrowserCatalog = {
         }
       ]
     },
+    "supplychain": {
+      "ocean-shipping": [
+        {
+          "name": "gCaptain",
+          "url": "https://gcaptain.com/feed/",
+          "type": "defense"
+        },
+        {
+          "name": "Splash247",
+          "url": "https://news.google.com/rss/search?q=site:splash247.com%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "The Loadstar",
+          "url": "https://news.google.com/rss/search?q=site:theloadstar.com%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Container Lines",
+          "url": "https://news.google.com/rss/search?q=(%22container%20shipping%22%20OR%20%22ocean%20freight%22%20OR%20%22blank%20sailings%22%20OR%20Maersk%20OR%20MSC%20OR%20%22Hapag-Lloyd%22%20OR%20%22CMA%20CGM%22%20OR%20COSCO%20OR%20ONE%20OR%20Evergreen)%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Ocean Freight Rates",
+          "url": "https://news.google.com/rss/search?q=(%22Drewry%20WCI%22%20OR%20%22World%20Container%20Index%22%20OR%20%22Freightos%20Baltic%22%20OR%20SCFI%20OR%20%22container%20rates%22%20OR%20%22Baltic%20Dry%20Index%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Red Sea & Canal Routing",
+          "url": "https://news.google.com/rss/search?q=(%22Red%20Sea%20shipping%22%20OR%20%22Suez%20Canal%22%20OR%20%22Panama%20Canal%22%20OR%20%22Cape%20of%20Good%20Hope%22%20OR%20%22Bab%20el-Mandeb%22%20OR%20Houthi%20shipping)%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "ports-terminals": [
+        {
+          "name": "Port Congestion",
+          "url": "https://news.google.com/rss/search?q=(%22port%20congestion%22%20OR%20%22vessel%20queue%22%20OR%20%22berth%20delays%22%20OR%20%22dwell%20time%22%20OR%20%22yard%20utilization%22%20OR%20anchorage%20backlog)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Port Labor & Strikes",
+          "url": "https://news.google.com/rss/search?q=(%22port%20strike%22%20OR%20dockworkers%20OR%20longshoremen%20OR%20ILA%20OR%20ILWU%20OR%20%22dock%20strike%22%20OR%20%22port%20workers%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "North American Ports",
+          "url": "https://news.google.com/rss/search?q=(%22Port%20of%20Los%20Angeles%22%20OR%20%22Port%20of%20Long%20Beach%22%20OR%20%22Port%20of%20Savannah%22%20OR%20%22Port%20Houston%22%20OR%20%22Port%20of%20New%20York%20and%20New%20Jersey%22%20OR%20%22Port%20of%20Vancouver%22%20OR%20%22Port%20of%20Charleston%22%20OR%20Manzanillo)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Global Port Hubs",
+          "url": "https://news.google.com/rss/search?q=(%22Port%20of%20Rotterdam%22%20OR%20%22Port%20of%20Singapore%22%20OR%20%22Shanghai%20port%22%20OR%20%22Port%20of%20Antwerp%22%20OR%20%22Jebel%20Ali%22%20OR%20%22Port%20of%20Busan%22%20OR%20%22Ningbo-Zhoushan%22%20OR%20%22Port%20Klang%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Port Technology",
+          "url": "https://news.google.com/rss/search?q=site:porttechnology.org%20when:7d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "air-cargo": [
+        {
+          "name": "Air Cargo News",
+          "url": "https://news.google.com/rss/search?q=site:aircargonews.net%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Air Cargo Week",
+          "url": "https://news.google.com/rss/search?q=site:aircargoweek.com%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Air Freight Market",
+          "url": "https://news.google.com/rss/search?q=(%22air%20cargo%22%20OR%20%22air%20freight%22%20OR%20freighter%20OR%20%22cargo%20airline%22%20OR%20%22TAC%20Index%22%20OR%20%22belly%20capacity%22)%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Express Integrators",
+          "url": "https://news.google.com/rss/search?q=(%22FedEx%20Express%22%20OR%20%22UPS%20Airlines%22%20OR%20%22DHL%20Express%22%20OR%20%22Amazon%20Air%22%20OR%20%22express%20parcel%22%20OR%20%22air%20hub%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "trucking-parcel": [
+        {
+          "name": "FreightWaves",
+          "url": "https://news.google.com/rss/search?q=site:freightwaves.com%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Transport Topics",
+          "url": "https://news.google.com/rss/search?q=site:ttnews.com%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Truckload & LTL Market",
+          "url": "https://news.google.com/rss/search?q=(trucking%20OR%20truckload%20OR%20LTL%20OR%20%22spot%20rates%22%20OR%20%22contract%20rates%22%20OR%20%22freight%20recession%22%20OR%20%22trucking%20capacity%22%20OR%20%22Cass%20Freight%20Index%22)%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Parcel & Last Mile",
+          "url": "https://news.google.com/rss/search?q=(parcel%20OR%20%22last%20mile%22%20OR%20%22FedEx%20Ground%22%20OR%20%22UPS%20Ground%22%20OR%20USPS%20OR%20%22Amazon%20Logistics%22%20OR%20%22parcel%20volumes%22)%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Cross-Border Freight",
+          "url": "https://news.google.com/rss/search?q=(%22cross-border%20trucking%22%20OR%20%22Laredo%22%20OR%20%22Mexico%20trucking%22%20OR%20%22USMCA%20freight%22%20OR%20nearshoring%20logistics%20OR%20%22border%20crossing%22%20freight)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "rail-intermodal": [
+        {
+          "name": "Class I Railroads",
+          "url": "https://news.google.com/rss/search?q=(%22Union%20Pacific%22%20OR%20BNSF%20OR%20CSX%20OR%20%22Norfolk%20Southern%22%20OR%20CPKC%20OR%20%22CN%20Rail%22%20OR%20%22Class%20I%20railroad%22%20OR%20%22rail%20merger%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Intermodal & Drayage",
+          "url": "https://news.google.com/rss/search?q=(intermodal%20OR%20drayage%20OR%20%22rail%20volumes%22%20OR%20%22AAR%20carloads%22%20OR%20%22container%20on%20flatcar%22%20OR%20%22inland%20port%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Railway Age",
+          "url": "https://news.google.com/rss/search?q=site:railwayage.com%20when:7d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Eurasia Rail Freight",
+          "url": "https://news.google.com/rss/search?q=(%22China-Europe%20rail%22%20OR%20%22Middle%20Corridor%22%20OR%20%22rail%20freight%20Europe%22%20OR%20%22Trans-Caspian%22%20OR%20%22rail%20freight%22%20Asia)%20when:7d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "warehousing-3pl": [
+        {
+          "name": "Supply Chain Dive",
+          "url": "https://news.google.com/rss/search?q=site:supplychaindive.com%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Warehousing & Fulfillment",
+          "url": "https://news.google.com/rss/search?q=(warehouse%20OR%20fulfillment%20OR%20%22distribution%20center%22%20OR%20%22industrial%20real%20estate%22%20OR%20%22warehouse%20vacancy%22%20OR%20%22cold%20storage%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "3PL & Forwarders",
+          "url": "https://news.google.com/rss/search?q=(3PL%20OR%20%22freight%20forwarder%22%20OR%20DSV%20OR%20%22Kuehne%2BNagel%22%20OR%20%22C.H.%20Robinson%22%20OR%20%22DB%20Schenker%22%20OR%20Expeditors%20OR%20GXO%20OR%20RXO)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "trade-customs": [
+        {
+          "name": "Tariff Watch",
+          "url": "https://news.google.com/rss/search?q=(tariff%20OR%20tariffs%20OR%20%22Section%20301%22%20OR%20%22Section%20232%22%20OR%20%22reciprocal%20tariffs%22%20OR%20%22de%20minimis%22%20OR%20%22trade%20war%22)%20when:2d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Customs & Compliance",
+          "url": "https://news.google.com/rss/search?q=(customs%20OR%20CBP%20OR%20%22import%20ban%22%20OR%20UFLPA%20OR%20%22export%20controls%22%20OR%20%22customs%20broker%22%20OR%20%22rules%20of%20origin%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Trade Agreements",
+          "url": "https://news.google.com/rss/search?q=(USMCA%20OR%20%22trade%20deal%22%20OR%20%22trade%20agreement%22%20OR%20WTO%20OR%20%22free%20trade%20agreement%22%20OR%20%22trade%20talks%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Shipping Sanctions",
+          "url": "https://news.google.com/rss/search?q=(%22shadow%20fleet%22%20OR%20%22shipping%20sanctions%22%20OR%20OFAC%20vessel%20OR%20%22sanctioned%20tankers%22%20OR%20%22vessel%20seizure%22)%20when:3d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "logistics-tech": [
+        {
+          "name": "Logistics Viewpoints",
+          "url": "https://news.google.com/rss/search?q=site:logisticsviewpoints.com%20when:7d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Supply Chain Software",
+          "url": "https://news.google.com/rss/search?q=(%22transportation%20management%20system%22%20OR%20%22supply%20chain%20software%22%20OR%20%22freight%20tech%22%20OR%20%22supply%20chain%20visibility%22%20OR%20%22freight%20brokerage%20software%22%20OR%20%22TMS%20platform%22)%20when:7d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Freight Tech Funding",
+          "url": "https://news.google.com/rss/search?q=(%22logistics%20startup%22%20OR%20%22freight%20tech%22%20OR%20%22supply%20chain%20startup%22)%20(raises%20OR%20funding%20OR%20acquires%20OR%20acquisition)%20when:7d&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
     "ondemand": {
       "nq-news": [
         {
@@ -3554,6 +3709,16 @@ export const BROWSER_NEWS_CATALOG: BrowserCatalog = {
       "live-news",
       "energy",
       "supply-chain"
+    ],
+    "supplychain": [
+      "ocean-shipping",
+      "ports-terminals",
+      "air-cargo",
+      "trucking-parcel",
+      "rail-intermodal",
+      "warehousing-3pl",
+      "trade-customs",
+      "logistics-tech"
     ]
   }
 };

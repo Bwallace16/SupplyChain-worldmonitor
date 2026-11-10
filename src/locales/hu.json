@@ -450,7 +450,11 @@
     "panelCatCommodityEcon": "Gazdaság & Kereskedelem",
     "panelCatHappyNews": "Jó Hírek",
     "panelCatHappyPlanet": "Bolygó & Adományozás",
-    "embed": "Beágyazás"
+    "embed": "Beágyazás",
+    "supplychain": "ELLÁTÁSI LÁNC",
+    "panelCatFreightDesks": "Fuvarozási rovatok",
+    "panelCatLogisticsNetwork": "Logisztikai hálózat",
+    "panelCatTradeCost": "Kereskedelmi szabályok és költségek"
   },
   "panels": {
     "liveNews": "Élő Hírek",
@@ -1674,6 +1678,7 @@
       "briefTech": "TECH ÖSSZEFOGLALÁS",
       "briefCommodity": "ÁRUCIKK ÖSSZEFOGLALÁS",
       "briefEnergy": "ENERGIA ÖSSZEFOGLALÁS",
+      "briefSupplyChain": "ELLÁTÁSI LÁNC ÖSSZEFOGLALÓ",
       "briefWorld": "VILÁG ÖSSZEFOGLALÁS",
       "mlDetected": "Gépi tanulás DETEKTÁLVA",
       "geographicConvergence": "FÖLDRAJZI KONVERGENCIA",
@@ -4868,6 +4873,11 @@
     },
     "happy": {
       "map": "Jó Hírek Térképe"
+    },
+    "supplychain": {
+      "map": "Globális logisztikai térkép",
+      "liveNews": "Élő üzleti TV",
+      "insights": "AI ellátási lánc elemzések"
     }
   },
   "pwaInstall": {

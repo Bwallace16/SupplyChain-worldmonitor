@@ -379,7 +379,11 @@
     "panelCatCommodityEcon": "Kinh tế & Thương mại",
     "panelCatHappyNews": "Tin tốt",
     "panelCatHappyPlanet": "Hành tinh & Trao tặng",
-    "embed": "Nhúng"
+    "embed": "Nhúng",
+    "supplychain": "CHUỖI CUNG ỨNG",
+    "panelCatFreightDesks": "Bàn tin vận tải",
+    "panelCatLogisticsNetwork": "Mạng lưới logistics",
+    "panelCatTradeCost": "Quy tắc thương mại & chi phí"
   },
   "panels": {
     "liveNews": "Tin tức Trực tiếp",
@@ -1520,6 +1524,7 @@
       "briefTech": "TÓM TẮT CÔNG NGHỆ",
       "briefCommodity": "TÓM TẮT HÀNG HÓA",
       "briefEnergy": "TÓM TẮT NĂNG LƯỢNG",
+      "briefSupplyChain": "BẢN TIN CHUỖI CUNG ỨNG",
       "briefWorld": "TÓM TẮT THẾ GIỚI",
       "mlDetected": "Học máy PHÁT HIỆN",
       "geographicConvergence": "HỘI TỤ ĐỊA LÝ",
@@ -4846,6 +4851,11 @@
     },
     "happy": {
       "map": "Bản đồ Tin tức Tích cực"
+    },
+    "supplychain": {
+      "map": "Bản đồ logistics toàn cầu",
+      "liveNews": "Truyền hình kinh doanh trực tiếp",
+      "insights": "Phân tích chuỗi cung ứng bằng AI"
     }
   },
   "pwaInstall": {
